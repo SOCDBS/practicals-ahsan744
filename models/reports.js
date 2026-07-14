@@ -26,6 +26,7 @@ module.exports.calculateStudentsGPA = function calculateStudentsGPA() {
 module.exports.generateAttendance = function generateAttendance() {
     // TODO: Fix this sql query to invoke the corresponding database function/procedure 
     const sql = '';
+
     return query(sql)
         .then(function (result) {
             const rows = result.rows;
